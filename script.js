@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const getData = async (movie = "Avatar: The") => {
         const apiKey = "63d38bf1";
-        const apiLink = `http://www.omdbapi.com/?apikey=${apiKey}&t=${movie}`;
+        const apiLink = `https://www.omdbapi.com/?apikey=${apiKey}&t=${movie}`;
 
         try {
             const response = await fetch(apiLink);
